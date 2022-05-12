@@ -1,0 +1,19 @@
+.bp-bg-nav {
+    background-color: lightgray;
+}
+
+.bp-img-logo-nav {
+    width: 150px;
+    height: auto;
+}
+
+.bp-card-pokemon {
+    width: 18rem;  
+    margin-left: 10px;  
+    margin-bottom: 10px;
+}
+
+.bp-img-pokemon {
+    width: 100%;
+    height: 150px;
+}
