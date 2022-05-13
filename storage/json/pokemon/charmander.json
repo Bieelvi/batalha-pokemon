@@ -1,0 +1,8 @@
+{
+    "pokemon": {
+        "nome": "Charmander",
+        "vida-base": 100,
+        "ataque-base": 5,
+        "cura-base": 5
+    }
+}

@@ -3,7 +3,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-6">
+        <div class="col-6 border rounded">
             <div class="text-center fw-bold p-3 mb-3"><span class="fs-4 text">Escolha seu pokemon</span></div>
             <div class="d-flex flew-wrap bp-list-pokemon">
                 <div class="card bp-card-pokemon">
@@ -26,8 +26,11 @@
                 </div>
             </div>
         </div>
-        <div class="col-6">
-            <div class="text-center fw-bold"><span class="fs-4 text">Batalha</span></div>
+        <div class="col-6 border rounded">
+            <div class="text-center fw-bold p-3 mb-3"><span class="fs-4 text">Batalha</span></div>
+            <div>
+              AREA DA BATALHA DESCRITA
+            </div>
         </div>
     </div>
 </div>
