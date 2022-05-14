@@ -1,0 +1,7 @@
+{
+    "nome": "Mew",
+    "img": "img/pokemons/mew.png",
+    "vida_base": 1300,
+    "ataque_base": 200,
+    "cura_base": 80
+}

@@ -11,7 +11,7 @@ class LeJSON
         $path = "../storage/json/pokemon/$fileName.json";
 
         if (!file_exists($path)) {
-            throw new FileException("Pokemon não encontrado");
+            throw new FileException("Pokemon $fileName não encontrado");
         }
 
         $json = file_get_contents($path);

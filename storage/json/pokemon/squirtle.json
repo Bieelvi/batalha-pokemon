@@ -1,0 +1,7 @@
+{
+    "nome": "Squirtle",
+    "img": "img/pokemons/squirtle.png",
+    "vida_base": 90,
+    "ataque_base": 8,
+    "cura_base": 3
+}

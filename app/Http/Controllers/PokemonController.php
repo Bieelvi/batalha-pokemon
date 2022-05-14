@@ -16,13 +16,14 @@ class PokemonController extends Controller
 
     public function index()
     {
-        return view('pokemon.index');
-    }
+        $pokemonList = ['charmander', 'bulbasaur', 'squirtle', 'charmander', 'bulbasaur', 'squirtle'];
 
-    public function leituraJSON()
-    {
-        $pokemon = $this->leJson->leJSON('charmander');
-
-        return response()->json($pokemon);
+        foreach ($pokemonList as $pokemonItem) {
+            $pokemons[] = $this->leJson->leJSON($pokemonItem);
+        }    
+        
+        return view('pokemon.index', compact(
+            'pokemons'
+        ));
     }
 }

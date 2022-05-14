@@ -8,12 +8,18 @@
 }
 
 .bp-card-pokemon {
-    width: 18rem;  
-    margin-left: 10px;  
-    margin-bottom: 10px;
+    width: 12rem;
 }
 
 .bp-img-pokemon {
     width: 100%;
     height: 150px;
 }
+
+.scroll {
+    overflow-y: auto;
+}
+
+.sombra-selecionado {
+    box-shadow: 1px 1px 15px green;
+  }

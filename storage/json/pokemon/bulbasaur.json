@@ -1,0 +1,7 @@
+{
+    "nome": "Bulbasaur",
+    "img": "img/pokemons/bulbasaur.png",
+    "vida_base": 130,
+    "ataque_base": 2,
+    "cura_base": 8
+}

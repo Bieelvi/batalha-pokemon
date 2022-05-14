@@ -15,4 +15,3 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [PokemonController::class, 'index'])->name('pokemon.index');
-Route::get('/teste', [PokemonController::class, 'leituraJSON'])->name('pokemon-leitura.index');
