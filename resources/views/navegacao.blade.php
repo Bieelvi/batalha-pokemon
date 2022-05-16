@@ -1,4 +1,4 @@
-<nav class="bp-bg-nav p-3 mb-3">
+<nav class="bp-bg-nav p-3">
     <div class="container-fluid d-flex justify-content-between align-items-center">
         <a href="#">
             <img src="<?= asset('img/pokemon-logo-8.png') ?>" alt="logo-home-pokemon" class="bp-img-logo-nav">

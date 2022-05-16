@@ -22,4 +22,27 @@
 
 .sombra-selecionado {
     box-shadow: 1px 1px 15px green;
+}
+
+.sombra-inimigo {
+    box-shadow: 1px 1px 15px red;
+}
+
+.nome-mensagem {
+    font-size: 11px;
+}
+
+#tela-resultado{
+    opacity: 0.3;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    z-index: 10000;
+  }
+  #tela-resultado-titulo{
+    opacity: 1;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    z-index: 10001;
   }

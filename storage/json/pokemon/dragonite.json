@@ -1,0 +1,7 @@
+{
+    "nome": "Dragonite",
+    "img": "img/pokemons/dragonite.png",
+    "vida_base": 300,
+    "ataque_base": 35,
+    "cura_base": 15
+}
