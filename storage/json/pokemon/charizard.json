@@ -1,0 +1,7 @@
+{
+    "nome": "Charizard",
+    "img": "img/pokemons/charizard.gif",
+    "vida_base": 250,
+    "ataque_base": 150,
+    "cura_base": 15
+}

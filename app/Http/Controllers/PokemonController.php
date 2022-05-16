@@ -16,7 +16,7 @@ class PokemonController extends Controller
 
     public function index()
     {
-        $pokemonList = ['charmander', 'bulbasaur', 'squirtle', 'mew', 'dragonite'];
+        $pokemonList = ['charmander', 'charizard', 'bulbasaur', 'squirtle', 'mew', 'dragonite'];
 
         foreach ($pokemonList as $pokemonItem) {
             $pokemons[] = $this->leJson->leJSON($pokemonItem);

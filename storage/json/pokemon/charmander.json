@@ -1,6 +1,6 @@
 {
     "nome": "Charmander",
-    "img": "img/pokemons/charmander.png",
+    "img": "img/pokemons/charmander.webp",
     "vida_base": 70,
     "ataque_base": 10,
     "cura_base": 3

@@ -1,6 +1,6 @@
 {
     "nome": "Bulbasaur",
-    "img": "img/pokemons/bulbasaur.png",
+    "img": "img/pokemons/bulbasaur.gif",
     "vida_base": 130,
     "ataque_base": 2,
     "cura_base": 8
