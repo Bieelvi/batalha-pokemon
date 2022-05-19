@@ -22,11 +22,11 @@ iniciarClass.addEventListener('click', function(event) {
 
     iniciou = true;
 
-    cardEscolhido = document.querySelector('.sombra-selecionado');
+    cardEscolhido = document.querySelector('#pokemon-selecionado');
 });
 
 function pokemonUsuarioObj() {
-    let card = document.querySelector('.sombra-selecionado');    
+    let card = document.querySelector('.sombra-selecionado');
     let nome = (card.querySelector('#nome-escolhido')).textContent;
     let vida = (card.querySelector('#vida-escolhido')).value;
     let cura = (card.querySelector('#cura-escolhido')).value;

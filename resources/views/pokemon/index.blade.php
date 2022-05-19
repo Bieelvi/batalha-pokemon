@@ -17,12 +17,18 @@
 
           <div class="row">
 
-            <div class="col-6">            
+            <div class="col-5">            
               @include('pokemon.components.chatBatalha')              
             </div>
-
-            <div class="col-6 d-flex flew-wrap flex-column justify-content-between">
+            
+            <div class="col-7 d-flex flew-wrap flex-column justify-content-between">
                 @include('pokemon.components.opcoesBatalha')
+                
+                @include('pokemon.components.botaoIniciarBatalha')
+
+                @include('pokemon.components.informacaoBatalha')
+                
+                @include('pokemon.components.botoesBatalha')
             </div>
 
           </div>         

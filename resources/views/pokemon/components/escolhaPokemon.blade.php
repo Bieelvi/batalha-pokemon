@@ -5,7 +5,7 @@
     @foreach ($pokemons as $pokemon)  
      
     <div class="card bp-card-pokemon rounded" id="bp-card-pokemon">
-      <img src="{{ asset($pokemon->img) }}" class="card-img-top bp-img-pokemon" alt="imagem pokemon {{ $pokemon->nome }}">
+      <img src="{{ asset($pokemon->img) }}" class="card-img-top bp-img-pokemon" id="pokemon-selecionado" alt="imagem pokemon {{ $pokemon->nome }}">
       <div class="card-body">
         <p class="card-text text-center" id="nome-escolhido"> {{ $pokemon->nome }} </p>
         <ul>
